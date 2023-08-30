@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
             KotlinWithComposeTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
+                    modifier = Modifier.ze(),
                     color = MaterialTheme.colorScheme.background
                 ) {
                     MyScreen()

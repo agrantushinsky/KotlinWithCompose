@@ -14,7 +14,6 @@ import com.example.kotlinwithcompose.ui.MyScreen
 import com.example.kotlinwithcompose.ui.theme.KotlinWithComposeTheme
 
 //....
-laskdfhiophiosdfghiodfghio
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,7 +21,7 @@ class MainActivity : ComponentActivity() {
             KotlinWithComposeTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
-                    modifier = Modifier.ze(),
+                    modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
                     MyScreen()
